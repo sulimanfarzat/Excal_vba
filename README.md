@@ -2,8 +2,8 @@
 
 
   <h2>1. SQLDatabase_VBA.bas</h2>
-  <h3>connect SQL Database from ODBC or system with VBA in Excel</h3>
+  <h3>connect SQL Database from ADODB or system with VBA in Excel</h3>
   
 ```
-npm install -g karma karma-cli karma-jasmine karma-chrome-launcher
+ sconnect = "Provider=MSDASQL.1;DSN=your ODBC connection name;UID=your user;PWD=your password;DBQ=your database" & DBPath & ";HDR=Yes';"
 ```
