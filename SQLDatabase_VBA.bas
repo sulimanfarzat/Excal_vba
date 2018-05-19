@@ -1,5 +1,6 @@
-Attribute VB_Name = "Bewegungen_SN"
-Sub AbfragePHSTSRN()
+Attribute VB_Name = "SQLDatabase_VBA"
+Sub SQLDatabase_VBA()
+    
 On Error Resume Next
 
     'Step 1: Create the Connection String with Provider and Data Source options
